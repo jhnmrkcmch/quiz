@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>JavaScript Quiz</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+    crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="container-1">
+        <h1>QUIZ</h1>
+        <div class="form">
+            <div class="row">
+                <div class="col-25">
+                  <label for="name">Name:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" autocomplete="on">
+                </div>
+              </div>       
+              <div class="row">
+                <div class="col-25">
+                  <label for="section">Section:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="section">
+                </div>
+              </div>
+<br><br><br>
+<br><br><br>
+            <h3><span>1. </span>What is the highest mountain in the world?</h3> <br>
+            <input type="radio" id="pinatubo" name="q1" value="0">
+            <label for="pinatubo">Mt.Pinatubo</label><br>
+            <input type="radio" id="everest" name="q1" value="1">
+            <label for="everest">Mt.Everest</label><br>
+            <input type="radio" id="fuji" name="q1" value="0">
+            <label for="fuji">Mt.fuji</label>
+<br><br><br>    
+            <h3><span>2. </span>Who discover gravity?</h3> <br>
+            <input type="radio" id="einstein" name="q2" value="0">
+            <label for="einstein">Albert Einstein</label><br>
+            <input type="radio" id="gallellei" name="q2" value="0">
+            <label for="gallellei">Galeleo Gallellei</label><br>
+            <input type="radio" id="newton" name="q2" value="1">
+            <label for="newton">Isaac Newton</label> 
+<br><br><br>
+            <h3><span>3. </span>Which star is the closest to planet Earth?</h3> <br>
+            <input type="radio" id="sun" name="q3" value="1">
+            <label for="sun">The Sun</label><br>
+            <input type="radio" id="sirius" name="q3" value="0">
+            <label for="sirius">Sirius</label><br>
+            <input type="radio" id="centauri" name="q3" value="0">
+            <label for="centauri">Proxima Centauri</label>
+<br><br><br>
+            <h3><span>4. </span>Of all measurements, which speed is considered the fastest?</h3> <br>
+            <input type="radio" id="sound" name="q4" value="0">
+            <label for="sound">Speed of sound</label><br>
+            <input type="radio" id="lightning" name="q4" value="0">
+            <label for="lightning">Speed of lightning</label><br>
+            <input type="radio" id="light" name="q4" value="1">
+            <label for="light">Speed of light</label>
+<br><br><br>
+            <h3><span>5. </span>occurs during the last evolutionary stages of a massive star, 
+                or when a white dwarf is triggered into runaway nuclear fusion.</h3> <br>
+            <input type="radio" id="hypernova" name="q5" value="0">
+            <label for="hypernova">Hypernova</label><br>
+            <input type="radio" id="supernova" name="q5" value="1">
+            <label for="supernova">Supernova</label><br>
+            <input type="radio" id="supergiant" name="q5" value="0">
+            <label for="supergiant">Supergiant</label> 
+<br><br><br>
+            <h3><span>6. </span>Animals that only consume other animals are called?</h3> <br>
+            <input type="radio" id="omnivores" name="q6" value="0">
+            <label for="omnivores">Omnivores</label><br>
+            <input type="radio" id="herbivores" name="q6" value="0">
+            <label for="herbivores">Herbivores</label><br>
+            <input type="radio" id="carnivores" name="q6" value="1">
+            <label for="carnivores">Carnivores</label>
+<br><br><br>
+            <h3><span>7. </span>Which scientist used one of the first telescopes to observe planets and stars?</h3> <br>
+            <input type="radio" id="galeleo" name="q7" value="1">
+            <label for="galeleo">Galileo Gallellei</label><br>
+            <input type="radio" id="isaac" name="q7" value="0">
+            <label for="isaac">Isaac Newton</label><br>
+            <input type="radio" id="albert" name="q7" value="0">
+            <label for="albert">Albert Einstein</label>
+<br><br><br>
+            <h3><span>8. </span>Which planet is the largest planet in our solar system?</h3> <br>
+            <input type="radio" id="neptune" name="q8" value="0">
+            <label for="neptune">Neptune</label><br>
+            <input type="radio" id="jupiter" name="q8" value="1">
+            <label for="jupiter">Jupiter</label><br>
+            <input type="radio" id="earth" name="q8" value="0">
+            <label for="earth">Earth</label>
+<br><br><br>
+            <h3><span>9. </span>Fire can not burn without</h3> <br>
+            <input type="radio" id="oxygen" name="q9" value="1">
+            <label for="oxygen">Oxygen</label><br>
+            <input type="radio" id="nitrogen" name="q9" value="0">
+            <label for="nitrogen">Nitrogen</label><br>
+            <input type="radio" id="helium" name="q9" value="0">
+            <label for="helium">Helium</label>
+<br><br><br>
+            <h3><span>10. </span>How many bones does an adult human usually have?</h3> <br>
+            <input type="radio" id="200" name="q10" value="0">
+            <label for="200">200</label><br>
+            <input type="radio" id="242" name="q10" value="0">
+            <label for="242">242</label><br>
+            <input type="radio" id="206" name="q10" value="1">
+            <label for="206">206</label>
+<br><br><br>
+            <button id="submit">Submit</button>
+        
+        </div>
+    </div>
+
+
+    <div class="pop-up">
+        <img src="remove.png" id="remove">
+        <br><br><br>
+        <div class="score">
+            <h1>SCORE: <span id="score-span"></span></h1>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
